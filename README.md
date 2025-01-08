@@ -44,7 +44,7 @@ Given the requirements I decided to go from the top level this time, gradually g
 ### Двоичные данные (Binary):
 
 * VARBINARY(n): Бинарные данные переменной длины, полезно для хранения небольших блобов (например, хэшей).
-* BLOB (Binary Large Object): Для хранения больших двоичных данных (например, изображений, файлов).
+* VARBINARY(max) или BLOB (Binary Large Object): Для хранения больших двоичных данных (например, изображений, файлов).
 
 ### Дополнительные типы:
 
